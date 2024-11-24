@@ -6,7 +6,7 @@ const ScrollView = ({ children }) => {
     style={{
     minHeight: "100vh", // Allows content to grow beyond the viewport
     overflowY: "auto", // Enable scrolling
-    overflowX: "hidden", // Disable horizontal scrolling
+    overflowX: "auto", // Disable horizontal scrolling
     scrollBehavior: "smooth", // Smooth scrolling
     // padding: "16px", // Optional padding for spacing
   }}
