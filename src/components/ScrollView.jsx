@@ -8,7 +8,6 @@ const ScrollView = ({ children }) => {
         overflowY: "scroll", // Enable vertical scrolling
         overflowX: "hidden", // Disable horizontal scrolling
         scrollBehavior: "smooth", // Smooth scrolling for better UX
-        padding: "10px", // Optional padding
         boxSizing: "border-box", // Maintain consistent layout
         backgroundColor: "inherit", // Match parent's background
       }}
