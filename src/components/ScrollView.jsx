@@ -8,7 +8,7 @@ const ScrollView = ({ children }) => {
     overflowY: "auto", // Enable scrolling
     overflowX: "hidden", // Disable horizontal scrolling
     scrollBehavior: "smooth", // Smooth scrolling
-    padding: "16px", // Optional padding for spacing
+    // padding: "16px", // Optional padding for spacing
   }}
 >
   {children}
